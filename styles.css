@@ -51,6 +51,7 @@ html {
     top: 23px;
 }
 
+/* small size viewport smaller than 768px */
 @media (max-width: 768px) {
     #piano {
         width: 358px;
@@ -62,5 +63,16 @@ html {
   
     .logo {
         width: 150px;
+    }
+}
+
+/* medium size viewport */
+@media (max-width: 1199px) and (min-width: 769px) {
+    #piano {
+        width: 675px;
+    }
+  
+    .keys {
+        width: 633px;
     }
 }
