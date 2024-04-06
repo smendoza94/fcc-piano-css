@@ -28,3 +28,13 @@ html {
     margin: 2px;
     float: left;
 }
+
+.key.black--key::after {
+    background-color: #1d1e22;
+    /* The content property is used to set or override the content of the element. */
+    content: "";
+    position: absolute;
+    left: -18px;
+    width: 32px;
+    height: 100px;
+}
