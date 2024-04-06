@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    background-color: #1d1e22;
 }
   
 *, *::before, *::after {
@@ -7,7 +8,7 @@ html {
 }
   
 #piano {
-    background-color: #00471b;
+    background-color: #ffbb00;
     width: 992px;
     height: 290px;
     margin: 80px auto;
@@ -54,6 +55,7 @@ html {
 /* small size viewport smaller than 768px */
 @media (max-width: 768px) {
     #piano {
+        background-color: #00792e;
         width: 358px;
     }
   
@@ -69,6 +71,7 @@ html {
 /* medium size viewport */
 @media (max-width: 1199px) and (min-width: 769px) {
     #piano {
+        background-color: #007179;
         width: 675px;
     }
   
